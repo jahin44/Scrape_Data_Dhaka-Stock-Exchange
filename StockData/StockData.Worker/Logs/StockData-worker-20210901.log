@@ -1,0 +1,349 @@
+2021-09-01 01:30:29.890 +06:00 [INF] Application Starting up
+2021-09-01 01:30:30.854 +06:00 [FTL] Application start-up failed
+System.ArgumentException: The type 'StockData.Manager.Services.StockPriceService' is not assignable to service 'StockData.Manager.Services.IStockPriceService'.
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration(Guid id, RegistrationData data, IInstanceActivator activator, IResolvePipelineBuilder pipelineBuilder, Service[] services, IComponentRegistration target)
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration[TLimit,TActivatorData,TSingleRegistrationStyle](IRegistrationBuilder`3 builder)
+   at Autofac.Builder.RegistrationBuilder.RegisterSingleComponent[TLimit,TActivatorData,TSingleRegistrationStyle](IComponentRegistryBuilder cr, IRegistrationBuilder`3 builder)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass37_0`1.<RegisterType>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at StockData.Worker.Program.Main(String[] args) in D:\GitHub\Assignment-4\ASPNET_DevSkill\StockData\StockData.Worker\Program.cs:line 43
+2021-09-01 01:59:55.758 +06:00 [INF] Application Starting up
+2021-09-01 01:59:56.286 +06:00 [FTL] Application start-up failed
+System.ArgumentException: The type 'StockData.Manager.Services.StockPriceService' is not assignable to service 'StockData.Manager.Services.IStockPriceService'.
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration(Guid id, RegistrationData data, IInstanceActivator activator, IResolvePipelineBuilder pipelineBuilder, Service[] services, IComponentRegistration target)
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration[TLimit,TActivatorData,TSingleRegistrationStyle](IRegistrationBuilder`3 builder)
+   at Autofac.Builder.RegistrationBuilder.RegisterSingleComponent[TLimit,TActivatorData,TSingleRegistrationStyle](IComponentRegistryBuilder cr, IRegistrationBuilder`3 builder)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass37_0`1.<RegisterType>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at StockData.Worker.Program.Main(String[] args) in D:\GitHub\Assignment-4\ASPNET_DevSkill\StockData\StockData.Worker\Program.cs:line 73
+2021-09-01 02:03:21.796 +06:00 [INF] Application Starting up
+2021-09-01 02:03:22.851 +06:00 [INF] Worker running at: "2021-09-01T02:03:22.8416304+06:00"
+2021-09-01 02:03:23.887 +06:00 [INF] Worker running at: "2021-09-01T02:03:23.8870212+06:00"
+2021-09-01 02:03:24.895 +06:00 [INF] Worker running at: "2021-09-01T02:03:24.8955184+06:00"
+2021-09-01 02:03:25.896 +06:00 [INF] Worker running at: "2021-09-01T02:03:25.8966078+06:00"
+2021-09-01 02:03:26.898 +06:00 [INF] Worker running at: "2021-09-01T02:03:26.8981732+06:00"
+2021-09-01 02:03:27.903 +06:00 [INF] Worker running at: "2021-09-01T02:03:27.9036026+06:00"
+2021-09-01 02:03:28.904 +06:00 [INF] Worker running at: "2021-09-01T02:03:28.9047390+06:00"
+2021-09-01 02:03:29.906 +06:00 [INF] Worker running at: "2021-09-01T02:03:29.9067299+06:00"
+2021-09-01 02:03:30.907 +06:00 [INF] Worker running at: "2021-09-01T02:03:30.9077765+06:00"
+2021-09-01 02:03:31.909 +06:00 [INF] Worker running at: "2021-09-01T02:03:31.9093847+06:00"
+2021-09-01 02:03:32.909 +06:00 [INF] Worker running at: "2021-09-01T02:03:32.9097331+06:00"
+2021-09-01 02:03:33.910 +06:00 [INF] Worker running at: "2021-09-01T02:03:33.9104251+06:00"
+2021-09-01 02:03:34.911 +06:00 [INF] Worker running at: "2021-09-01T02:03:34.9115045+06:00"
+2021-09-01 02:03:35.912 +06:00 [INF] Worker running at: "2021-09-01T02:03:35.9124826+06:00"
+2021-09-01 02:03:36.913 +06:00 [INF] Worker running at: "2021-09-01T02:03:36.9132485+06:00"
+2021-09-01 02:03:37.914 +06:00 [INF] Worker running at: "2021-09-01T02:03:37.9142072+06:00"
+2021-09-01 02:03:38.915 +06:00 [INF] Worker running at: "2021-09-01T02:03:38.9150720+06:00"
+2021-09-01 02:14:10.820 +06:00 [INF] Application Starting up
+2021-09-01 02:14:11.614 +06:00 [FTL] Application start-up failed
+System.ArgumentException: The type 'StockData.Manager.Services.StockPriceService' is not assignable to service 'StockData.Manager.Services.IStockPriceService'.
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration(Guid id, RegistrationData data, IInstanceActivator activator, IResolvePipelineBuilder pipelineBuilder, Service[] services, IComponentRegistration target)
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration[TLimit,TActivatorData,TSingleRegistrationStyle](IRegistrationBuilder`3 builder)
+   at Autofac.Builder.RegistrationBuilder.RegisterSingleComponent[TLimit,TActivatorData,TSingleRegistrationStyle](IComponentRegistryBuilder cr, IRegistrationBuilder`3 builder)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass37_0`1.<RegisterType>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at StockData.Worker.Program.Main(String[] args) in D:\GitHub\Assignment-4\ASPNET_DevSkill\StockData\StockData.Worker\Program.cs:line 43
+2021-09-01 02:17:09.016 +06:00 [INF] Application Starting up
+2021-09-01 02:18:20.601 +06:00 [FTL] Application start-up failed
+System.ArgumentException: The type 'StockData.Manager.Services.StockPriceService' is not assignable to service 'StockData.Manager.Services.IStockPriceService'.
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration(Guid id, RegistrationData data, IInstanceActivator activator, IResolvePipelineBuilder pipelineBuilder, Service[] services, IComponentRegistration target)
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration[TLimit,TActivatorData,TSingleRegistrationStyle](IRegistrationBuilder`3 builder)
+   at Autofac.Builder.RegistrationBuilder.RegisterSingleComponent[TLimit,TActivatorData,TSingleRegistrationStyle](IComponentRegistryBuilder cr, IRegistrationBuilder`3 builder)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass37_0`1.<RegisterType>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at StockData.Worker.Program.Main(String[] args) in D:\GitHub\Assignment-4\ASPNET_DevSkill\StockData\StockData.Worker\Program.cs:line 43
+2021-09-01 02:34:17.380 +06:00 [INF] Application Starting up
+2021-09-01 02:35:04.653 +06:00 [FTL] Application start-up failed
+System.ArgumentException: The type 'StockData.Manager.Services.StockPriceService' is not assignable to service 'StockData.Manager.Services.IStockPriceService'.
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration(Guid id, RegistrationData data, IInstanceActivator activator, IResolvePipelineBuilder pipelineBuilder, Service[] services, IComponentRegistration target)
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration[TLimit,TActivatorData,TSingleRegistrationStyle](IRegistrationBuilder`3 builder)
+   at Autofac.Builder.RegistrationBuilder.RegisterSingleComponent[TLimit,TActivatorData,TSingleRegistrationStyle](IComponentRegistryBuilder cr, IRegistrationBuilder`3 builder)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass37_0`1.<RegisterType>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at StockData.Worker.Program.Main(String[] args) in D:\GitHub\Assignment-4\ASPNET_DevSkill\StockData\StockData.Worker\Program.cs:line 43
+2021-09-01 02:49:45.967 +06:00 [INF] Application Starting up
+2021-09-01 02:51:04.551 +06:00 [FTL] Application start-up failed
+System.ArgumentException: The type 'StockData.Manager.Services.StockPriceService' is not assignable to service 'StockData.Manager.Services.IStockPriceService'.
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration(Guid id, RegistrationData data, IInstanceActivator activator, IResolvePipelineBuilder pipelineBuilder, Service[] services, IComponentRegistration target)
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration[TLimit,TActivatorData,TSingleRegistrationStyle](IRegistrationBuilder`3 builder)
+   at Autofac.Builder.RegistrationBuilder.RegisterSingleComponent[TLimit,TActivatorData,TSingleRegistrationStyle](IComponentRegistryBuilder cr, IRegistrationBuilder`3 builder)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass37_0`1.<RegisterType>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at StockData.Worker.Program.Main(String[] args) in D:\GitHub\Assignment-4\ASPNET_DevSkill\StockData\StockData.Worker\Program.cs:line 43
+2021-09-01 16:21:30.343 +06:00 [INF] Application Starting up
+2021-09-01 16:21:31.002 +06:00 [FTL] Application start-up failed
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: StockData.Manager.Contexts.StockDataDbContext Lifetime: Scoped ImplementationType: StockData.Manager.Contexts.StockDataDbContext': Unable to resolve service for type 'System.String' while attempting to activate 'StockData.Manager.Contexts.StockDataDbContext'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: StockData.Manager.Contexts.StockDataDbContext Lifetime: Scoped ImplementationType: StockData.Manager.Contexts.StockDataDbContext': Unable to resolve service for type 'System.String' while attempting to activate 'StockData.Manager.Contexts.StockDataDbContext'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'StockData.Manager.Contexts.StockDataDbContext'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngine engine, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at StockData.Worker.Program.Main(String[] args) in D:\GitHub\Assignment-4\ASPNET_DevSkill\StockData\StockData.Worker\Program.cs:line 43
+2021-09-01 16:37:12.953 +06:00 [INF] Application Starting up
+2021-09-01 16:37:14.500 +06:00 [FTL] Application start-up failed
+System.ArgumentException: The type 'StockData.Manager.Services.StockPriceService' is not assignable to service 'StockData.Manager.Services.IStockPriceService'.
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration(Guid id, RegistrationData data, IInstanceActivator activator, IResolvePipelineBuilder pipelineBuilder, Service[] services, IComponentRegistration target)
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration[TLimit,TActivatorData,TSingleRegistrationStyle](IRegistrationBuilder`3 builder)
+   at Autofac.Builder.RegistrationBuilder.RegisterSingleComponent[TLimit,TActivatorData,TSingleRegistrationStyle](IComponentRegistryBuilder cr, IRegistrationBuilder`3 builder)
+   at Autofac.RegistrationExtensions.<>c__DisplayClass37_0`1.<RegisterType>b__0(IComponentRegistryBuilder cr)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistryBuilder componentRegistry)
+   at Autofac.Module.Configure(IComponentRegistryBuilder componentRegistry)
+   at Autofac.ContainerBuilder.Build(IComponentRegistryBuilder componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at StockData.Worker.Program.Main(String[] args) in D:\GitHub\Assignment-4\ASPNET_DevSkill\StockData\StockData.Worker\Program.cs:line 43
+2021-09-01 16:40:16.373 +06:00 [INF] Application Starting up
+2021-09-01 16:40:17.744 +06:00 [INF] Worker running at: "2021-09-01T16:40:17.7360671+06:00"
+2021-09-01 16:40:18.774 +06:00 [INF] Worker running at: "2021-09-01T16:40:18.7745389+06:00"
+2021-09-01 16:40:19.781 +06:00 [INF] Worker running at: "2021-09-01T16:40:19.7817508+06:00"
+2021-09-01 16:40:20.789 +06:00 [INF] Worker running at: "2021-09-01T16:40:20.7897684+06:00"
+2021-09-01 16:40:21.791 +06:00 [INF] Worker running at: "2021-09-01T16:40:21.7910162+06:00"
+2021-09-01 16:40:22.791 +06:00 [INF] Worker running at: "2021-09-01T16:40:22.7918236+06:00"
+2021-09-01 16:40:23.793 +06:00 [INF] Worker running at: "2021-09-01T16:40:23.7935768+06:00"
+2021-09-01 16:40:24.794 +06:00 [INF] Worker running at: "2021-09-01T16:40:24.7945868+06:00"
+2021-09-01 16:40:25.796 +06:00 [INF] Worker running at: "2021-09-01T16:40:25.7961442+06:00"
+2021-09-01 16:40:26.803 +06:00 [INF] Worker running at: "2021-09-01T16:40:26.8032436+06:00"
+2021-09-01 16:40:27.804 +06:00 [INF] Worker running at: "2021-09-01T16:40:27.8045693+06:00"
+2021-09-01 16:40:28.805 +06:00 [INF] Worker running at: "2021-09-01T16:40:28.8057108+06:00"
+2021-09-01 16:40:29.806 +06:00 [INF] Worker running at: "2021-09-01T16:40:29.8067812+06:00"
+2021-09-01 16:40:30.807 +06:00 [INF] Worker running at: "2021-09-01T16:40:30.8071193+06:00"
+2021-09-01 16:40:31.807 +06:00 [INF] Worker running at: "2021-09-01T16:40:31.8078299+06:00"
+2021-09-01 16:40:32.808 +06:00 [INF] Worker running at: "2021-09-01T16:40:32.8085680+06:00"
+2021-09-01 16:40:33.809 +06:00 [INF] Worker running at: "2021-09-01T16:40:33.8093563+06:00"
+2021-09-01 16:40:34.810 +06:00 [INF] Worker running at: "2021-09-01T16:40:34.8105411+06:00"
+2021-09-01 16:40:35.812 +06:00 [INF] Worker running at: "2021-09-01T16:40:35.8122353+06:00"
+2021-09-01 16:40:36.813 +06:00 [INF] Worker running at: "2021-09-01T16:40:36.8129809+06:00"
+2021-09-01 16:40:37.814 +06:00 [INF] Worker running at: "2021-09-01T16:40:37.8140494+06:00"
+2021-09-01 16:40:38.814 +06:00 [INF] Worker running at: "2021-09-01T16:40:38.8145440+06:00"
+2021-09-01 16:40:39.815 +06:00 [INF] Worker running at: "2021-09-01T16:40:39.8152817+06:00"
+2021-09-01 16:40:40.816 +06:00 [INF] Worker running at: "2021-09-01T16:40:40.8162625+06:00"
+2021-09-01 16:40:41.817 +06:00 [INF] Worker running at: "2021-09-01T16:40:41.8176172+06:00"
+2021-09-01 16:40:42.818 +06:00 [INF] Worker running at: "2021-09-01T16:40:42.8180991+06:00"
+2021-09-01 16:40:43.818 +06:00 [INF] Worker running at: "2021-09-01T16:40:43.8187061+06:00"
+2021-09-01 16:40:44.819 +06:00 [INF] Worker running at: "2021-09-01T16:40:44.8197500+06:00"
+2021-09-01 16:40:45.820 +06:00 [INF] Worker running at: "2021-09-01T16:40:45.8200456+06:00"
+2021-09-01 16:40:46.821 +06:00 [INF] Worker running at: "2021-09-01T16:40:46.8212517+06:00"
+2021-09-01 16:40:47.821 +06:00 [INF] Worker running at: "2021-09-01T16:40:47.8217221+06:00"
+2021-09-01 16:40:48.823 +06:00 [INF] Worker running at: "2021-09-01T16:40:48.8231889+06:00"
+2021-09-01 16:40:49.834 +06:00 [INF] Worker running at: "2021-09-01T16:40:49.8349548+06:00"
+2021-09-01 16:40:50.836 +06:00 [INF] Worker running at: "2021-09-01T16:40:50.8361660+06:00"
+2021-09-01 16:40:51.836 +06:00 [INF] Worker running at: "2021-09-01T16:40:51.8365417+06:00"
+2021-09-01 16:40:52.837 +06:00 [INF] Worker running at: "2021-09-01T16:40:52.8370248+06:00"
+2021-09-01 16:40:53.837 +06:00 [INF] Worker running at: "2021-09-01T16:40:53.8377544+06:00"
+2021-09-01 16:40:54.838 +06:00 [INF] Worker running at: "2021-09-01T16:40:54.8389340+06:00"
+2021-09-01 16:40:55.840 +06:00 [INF] Worker running at: "2021-09-01T16:40:55.8400940+06:00"
+2021-09-01 16:40:56.840 +06:00 [INF] Worker running at: "2021-09-01T16:40:56.8403841+06:00"
+2021-09-01 16:40:57.841 +06:00 [INF] Worker running at: "2021-09-01T16:40:57.8415078+06:00"
+2021-09-01 16:40:58.842 +06:00 [INF] Worker running at: "2021-09-01T16:40:58.8419838+06:00"
+2021-09-01 16:40:59.842 +06:00 [INF] Worker running at: "2021-09-01T16:40:59.8428098+06:00"
+2021-09-01 16:41:00.843 +06:00 [INF] Worker running at: "2021-09-01T16:41:00.8430815+06:00"
+2021-09-01 16:41:01.844 +06:00 [INF] Worker running at: "2021-09-01T16:41:01.8441443+06:00"
+2021-09-01 16:41:02.845 +06:00 [INF] Worker running at: "2021-09-01T16:41:02.8459015+06:00"
+2021-09-01 16:41:03.846 +06:00 [INF] Worker running at: "2021-09-01T16:41:03.8469544+06:00"
+2021-09-01 16:41:04.849 +06:00 [INF] Worker running at: "2021-09-01T16:41:04.8496272+06:00"
+2021-09-01 16:41:05.851 +06:00 [INF] Worker running at: "2021-09-01T16:41:05.8515520+06:00"
+2021-09-01 16:41:06.851 +06:00 [INF] Worker running at: "2021-09-01T16:41:06.8518117+06:00"
+2021-09-01 16:41:07.852 +06:00 [INF] Worker running at: "2021-09-01T16:41:07.8520905+06:00"
+2021-09-01 16:41:08.853 +06:00 [INF] Worker running at: "2021-09-01T16:41:08.8536084+06:00"
+2021-09-01 16:41:09.854 +06:00 [INF] Worker running at: "2021-09-01T16:41:09.8548915+06:00"
+2021-09-01 16:41:10.855 +06:00 [INF] Worker running at: "2021-09-01T16:41:10.8554768+06:00"
+2021-09-01 16:41:11.856 +06:00 [INF] Worker running at: "2021-09-01T16:41:11.8559997+06:00"
+2021-09-01 16:41:12.856 +06:00 [INF] Worker running at: "2021-09-01T16:41:12.8564585+06:00"
+2021-09-01 16:41:13.857 +06:00 [INF] Worker running at: "2021-09-01T16:41:13.8575120+06:00"
+2021-09-01 16:41:14.858 +06:00 [INF] Worker running at: "2021-09-01T16:41:14.8586885+06:00"
+2021-09-01 16:41:15.859 +06:00 [INF] Worker running at: "2021-09-01T16:41:15.8595026+06:00"
+2021-09-01 16:41:16.860 +06:00 [INF] Worker running at: "2021-09-01T16:41:16.8605242+06:00"
+2021-09-01 16:41:17.860 +06:00 [INF] Worker running at: "2021-09-01T16:41:17.8607888+06:00"
+2021-09-01 16:41:18.861 +06:00 [INF] Worker running at: "2021-09-01T16:41:18.8618193+06:00"
+2021-09-01 16:41:19.862 +06:00 [INF] Worker running at: "2021-09-01T16:41:19.8622790+06:00"
+2021-09-01 16:41:20.863 +06:00 [INF] Worker running at: "2021-09-01T16:41:20.8634924+06:00"
+2021-09-01 16:41:21.864 +06:00 [INF] Worker running at: "2021-09-01T16:41:21.8641450+06:00"
+2021-09-01 16:41:22.864 +06:00 [INF] Worker running at: "2021-09-01T16:41:22.8643963+06:00"
+2021-09-01 16:41:23.865 +06:00 [INF] Worker running at: "2021-09-01T16:41:23.8653715+06:00"
+2021-09-01 16:41:24.866 +06:00 [INF] Worker running at: "2021-09-01T16:41:24.8663424+06:00"
+2021-09-01 16:41:25.867 +06:00 [INF] Worker running at: "2021-09-01T16:41:25.8673594+06:00"
+2021-09-01 16:41:26.867 +06:00 [INF] Worker running at: "2021-09-01T16:41:26.8677437+06:00"
+2021-09-01 16:41:27.868 +06:00 [INF] Worker running at: "2021-09-01T16:41:27.8684925+06:00"
+2021-09-01 16:41:28.869 +06:00 [INF] Worker running at: "2021-09-01T16:41:28.8696251+06:00"
+2021-09-01 16:41:29.870 +06:00 [INF] Worker running at: "2021-09-01T16:41:29.8709009+06:00"
+2021-09-01 16:41:30.871 +06:00 [INF] Worker running at: "2021-09-01T16:41:30.8717717+06:00"
+2021-09-01 16:41:31.872 +06:00 [INF] Worker running at: "2021-09-01T16:41:31.8720437+06:00"
+2021-09-01 16:41:32.872 +06:00 [INF] Worker running at: "2021-09-01T16:41:32.8726828+06:00"
+2021-09-01 16:41:33.873 +06:00 [INF] Worker running at: "2021-09-01T16:41:33.8735951+06:00"
+2021-09-01 16:41:34.874 +06:00 [INF] Worker running at: "2021-09-01T16:41:34.8740525+06:00"
+2021-09-01 16:41:35.876 +06:00 [INF] Worker running at: "2021-09-01T16:41:35.8760620+06:00"
+2021-09-01 16:41:36.877 +06:00 [INF] Worker running at: "2021-09-01T16:41:36.8772862+06:00"
+2021-09-01 16:41:37.878 +06:00 [INF] Worker running at: "2021-09-01T16:41:37.8783518+06:00"
+2021-09-01 16:41:38.878 +06:00 [INF] Worker running at: "2021-09-01T16:41:38.8788187+06:00"
+2021-09-01 16:41:39.879 +06:00 [INF] Worker running at: "2021-09-01T16:41:39.8795032+06:00"
+2021-09-01 16:41:40.881 +06:00 [INF] Worker running at: "2021-09-01T16:41:40.8810304+06:00"
+2021-09-01 16:41:41.881 +06:00 [INF] Worker running at: "2021-09-01T16:41:41.8817616+06:00"
+2021-09-01 16:41:42.882 +06:00 [INF] Worker running at: "2021-09-01T16:41:42.8822434+06:00"
+2021-09-01 16:41:43.883 +06:00 [INF] Worker running at: "2021-09-01T16:41:43.8833762+06:00"
+2021-09-01 16:41:44.884 +06:00 [INF] Worker running at: "2021-09-01T16:41:44.8843401+06:00"
+2021-09-01 16:41:45.885 +06:00 [INF] Worker running at: "2021-09-01T16:41:45.8854055+06:00"
+2021-09-01 16:41:46.886 +06:00 [INF] Worker running at: "2021-09-01T16:41:46.8864227+06:00"
+2021-09-01 16:41:47.887 +06:00 [INF] Worker running at: "2021-09-01T16:41:47.8877205+06:00"
+2021-09-01 16:41:48.888 +06:00 [INF] Worker running at: "2021-09-01T16:41:48.8882362+06:00"
+2021-09-01 16:41:49.888 +06:00 [INF] Worker running at: "2021-09-01T16:41:49.8888590+06:00"
+2021-09-01 16:41:50.889 +06:00 [INF] Worker running at: "2021-09-01T16:41:50.8891840+06:00"
+2021-09-01 16:41:51.889 +06:00 [INF] Worker running at: "2021-09-01T16:41:51.8898945+06:00"
+2021-09-01 16:41:52.897 +06:00 [INF] Worker running at: "2021-09-01T16:41:52.8975817+06:00"
+2021-09-01 16:41:53.898 +06:00 [INF] Worker running at: "2021-09-01T16:41:53.8985527+06:00"
+2021-09-01 16:41:54.899 +06:00 [INF] Worker running at: "2021-09-01T16:41:54.8995537+06:00"
+2021-09-01 16:41:55.900 +06:00 [INF] Worker running at: "2021-09-01T16:41:55.9005575+06:00"
+2021-09-01 16:41:56.901 +06:00 [INF] Worker running at: "2021-09-01T16:41:56.9016775+06:00"
+2021-09-01 16:53:37.801 +06:00 [INF] Application Starting up
+2021-09-01 16:53:39.468 +06:00 [INF] Worker running at: "2021-09-01T16:53:39.4598051+06:00"
+2021-09-01 16:53:40.501 +06:00 [INF] Worker running at: "2021-09-01T16:53:40.5016711+06:00"
+2021-09-01 16:53:41.511 +06:00 [INF] Worker running at: "2021-09-01T16:53:41.5110898+06:00"
+2021-09-01 16:53:42.512 +06:00 [INF] Worker running at: "2021-09-01T16:53:42.5121377+06:00"
+2021-09-01 16:53:43.513 +06:00 [INF] Worker running at: "2021-09-01T16:53:43.5133438+06:00"
+2021-09-01 16:53:44.514 +06:00 [INF] Worker running at: "2021-09-01T16:53:44.5144236+06:00"
+2021-09-01 16:53:45.515 +06:00 [INF] Worker running at: "2021-09-01T16:53:45.5154236+06:00"
+2021-09-01 16:53:46.517 +06:00 [INF] Worker running at: "2021-09-01T16:53:46.5169948+06:00"
+2021-09-01 16:54:38.852 +06:00 [INF] Application Starting up
+2021-09-01 16:56:27.014 +06:00 [INF] Worker running at: "2021-09-01T16:56:27.0037144+06:00"
+2021-09-01 16:56:32.547 +06:00 [INF] Worker running at: "2021-09-01T16:56:32.5464941+06:00"
+2021-09-01 16:56:36.083 +06:00 [INF] Worker running at: "2021-09-01T16:56:36.0825798+06:00"
+2021-09-01 16:56:39.012 +06:00 [INF] Worker running at: "2021-09-01T16:56:39.0110361+06:00"
+2021-09-01 16:57:01.359 +06:00 [INF] Application Starting up
+2021-09-01 16:57:02.867 +06:00 [INF] Worker running at: "2021-09-01T16:57:02.8592146+06:00"
+2021-09-01 16:57:03.897 +06:00 [INF] Worker running at: "2021-09-01T16:57:03.8969847+06:00"
+2021-09-01 16:57:04.898 +06:00 [INF] Worker running at: "2021-09-01T16:57:04.8980987+06:00"
+2021-09-01 16:57:05.903 +06:00 [INF] Worker running at: "2021-09-01T16:57:05.9031318+06:00"
+2021-09-01 16:57:06.903 +06:00 [INF] Worker running at: "2021-09-01T16:57:06.9038648+06:00"
+2021-09-01 16:57:07.905 +06:00 [INF] Worker running at: "2021-09-01T16:57:07.9051362+06:00"
+2021-09-01 16:57:08.906 +06:00 [INF] Worker running at: "2021-09-01T16:57:08.9063719+06:00"
+2021-09-01 16:57:09.908 +06:00 [INF] Worker running at: "2021-09-01T16:57:09.9080057+06:00"
+2021-09-01 16:57:10.909 +06:00 [INF] Worker running at: "2021-09-01T16:57:10.9092869+06:00"
+2021-09-01 16:57:11.911 +06:00 [INF] Worker running at: "2021-09-01T16:57:11.9114504+06:00"
+2021-09-01 16:57:12.912 +06:00 [INF] Worker running at: "2021-09-01T16:57:12.9129138+06:00"
+2021-09-01 16:57:13.913 +06:00 [INF] Worker running at: "2021-09-01T16:57:13.9139190+06:00"
+2021-09-01 16:57:14.914 +06:00 [INF] Worker running at: "2021-09-01T16:57:14.9148668+06:00"
+2021-09-01 16:57:15.916 +06:00 [INF] Worker running at: "2021-09-01T16:57:15.9160749+06:00"
+2021-09-01 16:57:16.916 +06:00 [INF] Worker running at: "2021-09-01T16:57:16.9167497+06:00"
+2021-09-01 16:57:17.917 +06:00 [INF] Worker running at: "2021-09-01T16:57:17.9173453+06:00"
+2021-09-01 16:57:18.918 +06:00 [INF] Worker running at: "2021-09-01T16:57:18.9180304+06:00"
+2021-09-01 16:57:19.919 +06:00 [INF] Worker running at: "2021-09-01T16:57:19.9191494+06:00"
+2021-09-01 16:57:20.942 +06:00 [INF] Worker running at: "2021-09-01T16:57:20.9424119+06:00"
+2021-09-01 16:57:21.949 +06:00 [INF] Worker running at: "2021-09-01T16:57:21.9497777+06:00"
+2021-09-01 16:57:22.950 +06:00 [INF] Worker running at: "2021-09-01T16:57:22.9505255+06:00"
+2021-09-01 16:57:23.951 +06:00 [INF] Worker running at: "2021-09-01T16:57:23.9516437+06:00"
+2021-09-01 16:57:24.952 +06:00 [INF] Worker running at: "2021-09-01T16:57:24.9528034+06:00"
+2021-09-01 16:57:25.953 +06:00 [INF] Worker running at: "2021-09-01T16:57:25.9536747+06:00"
+2021-09-01 16:57:26.954 +06:00 [INF] Worker running at: "2021-09-01T16:57:26.9540617+06:00"
+2021-09-01 16:57:27.954 +06:00 [INF] Worker running at: "2021-09-01T16:57:27.9546756+06:00"
+2021-09-01 16:57:28.956 +06:00 [INF] Worker running at: "2021-09-01T16:57:28.9559983+06:00"
+2021-09-01 16:57:29.957 +06:00 [INF] Worker running at: "2021-09-01T16:57:29.9570369+06:00"
+2021-09-01 16:57:30.957 +06:00 [INF] Worker running at: "2021-09-01T16:57:30.9577276+06:00"
+2021-09-01 16:57:31.959 +06:00 [INF] Worker running at: "2021-09-01T16:57:31.9590278+06:00"
+2021-09-01 16:57:32.961 +06:00 [INF] Worker running at: "2021-09-01T16:57:32.9612482+06:00"
+2021-09-01 16:57:33.961 +06:00 [INF] Worker running at: "2021-09-01T16:57:33.9616935+06:00"
+2021-09-01 16:57:34.962 +06:00 [INF] Worker running at: "2021-09-01T16:57:34.9623901+06:00"
+2021-09-01 16:57:35.964 +06:00 [INF] Worker running at: "2021-09-01T16:57:35.9643282+06:00"
+2021-09-01 16:57:36.964 +06:00 [INF] Worker running at: "2021-09-01T16:57:36.9646083+06:00"
+2021-09-01 16:57:37.965 +06:00 [INF] Worker running at: "2021-09-01T16:57:37.9654866+06:00"
+2021-09-01 16:57:38.966 +06:00 [INF] Worker running at: "2021-09-01T16:57:38.9666029+06:00"
+2021-09-01 16:57:39.967 +06:00 [INF] Worker running at: "2021-09-01T16:57:39.9679351+06:00"
+2021-09-01 16:57:40.968 +06:00 [INF] Worker running at: "2021-09-01T16:57:40.9686552+06:00"
+2021-09-01 16:57:41.970 +06:00 [INF] Worker running at: "2021-09-01T16:57:41.9705817+06:00"
+2021-09-01 16:57:42.971 +06:00 [INF] Worker running at: "2021-09-01T16:57:42.9714944+06:00"
+2021-09-01 16:57:43.972 +06:00 [INF] Worker running at: "2021-09-01T16:57:43.9725102+06:00"
+2021-09-01 16:57:44.973 +06:00 [INF] Worker running at: "2021-09-01T16:57:44.9733075+06:00"
+2021-09-01 17:03:55.363 +06:00 [INF] Application Starting up
+2021-09-01 17:03:57.001 +06:00 [INF] Worker running at: "2021-09-01T17:03:56.9912906+06:00"
+2021-09-01 17:03:58.029 +06:00 [INF] Worker running at: "2021-09-01T17:03:58.0290442+06:00"
+2021-09-01 17:03:59.032 +06:00 [INF] Worker running at: "2021-09-01T17:03:59.0320957+06:00"
+2021-09-01 17:04:00.033 +06:00 [INF] Worker running at: "2021-09-01T17:04:00.0336306+06:00"
+2021-09-01 17:04:01.035 +06:00 [INF] Worker running at: "2021-09-01T17:04:01.0352651+06:00"
+2021-09-01 17:11:29.192 +06:00 [INF] Application Starting up
+2021-09-01 17:11:30.985 +06:00 [INF] Worker running at: "2021-09-01T17:11:30.9697522+06:00"
+2021-09-01 17:11:32.015 +06:00 [INF] Worker running at: "2021-09-01T17:11:32.0157138+06:00"
+2021-09-01 17:11:33.020 +06:00 [INF] Worker running at: "2021-09-01T17:11:33.0206958+06:00"
+2021-09-01 17:11:34.025 +06:00 [INF] Worker running at: "2021-09-01T17:11:34.0255101+06:00"
+2021-09-01 17:11:35.030 +06:00 [INF] Worker running at: "2021-09-01T17:11:35.0303089+06:00"
+2021-09-01 17:11:36.031 +06:00 [INF] Worker running at: "2021-09-01T17:11:36.0311596+06:00"
+2021-09-01 17:11:37.037 +06:00 [INF] Worker running at: "2021-09-01T17:11:37.0372459+06:00"
+2021-09-01 17:11:38.038 +06:00 [INF] Worker running at: "2021-09-01T17:11:38.0383231+06:00"
+2021-09-01 17:11:39.039 +06:00 [INF] Worker running at: "2021-09-01T17:11:39.0399025+06:00"
+2021-09-01 17:12:31.720 +06:00 [INF] Application Starting up
+2021-09-01 17:14:34.488 +06:00 [INF] Worker running at: "2021-09-01T17:14:34.4795370+06:00"
+2021-09-01 17:14:35.507 +06:00 [INF] Worker running at: "2021-09-01T17:14:35.5075745+06:00"
+2021-09-01 17:14:36.509 +06:00 [INF] Worker running at: "2021-09-01T17:14:36.5092237+06:00"
+2021-09-01 17:14:37.513 +06:00 [INF] Worker running at: "2021-09-01T17:14:37.5139079+06:00"
+2021-09-01 17:14:38.514 +06:00 [INF] Worker running at: "2021-09-01T17:14:38.5149037+06:00"
+2021-09-01 17:14:39.516 +06:00 [INF] Worker running at: "2021-09-01T17:14:39.5162355+06:00"
+2021-09-01 17:22:50.896 +06:00 [INF] Application Starting up
+2021-09-01 17:22:56.421 +06:00 [INF] Worker running at: "2021-09-01T17:22:56.4122489+06:00"
+2021-09-01 17:22:57.449 +06:00 [INF] Worker running at: "2021-09-01T17:22:57.4495358+06:00"
+2021-09-01 17:22:58.455 +06:00 [INF] Worker running at: "2021-09-01T17:22:58.4558545+06:00"
+2021-09-01 17:22:59.457 +06:00 [INF] Worker running at: "2021-09-01T17:22:59.4570032+06:00"
+2021-09-01 17:23:00.459 +06:00 [INF] Worker running at: "2021-09-01T17:23:00.4591846+06:00"
+2021-09-01 17:23:01.464 +06:00 [INF] Worker running at: "2021-09-01T17:23:01.4641414+06:00"
+2021-09-01 17:23:02.465 +06:00 [INF] Worker running at: "2021-09-01T17:23:02.4653496+06:00"
+2021-09-01 17:23:03.466 +06:00 [INF] Worker running at: "2021-09-01T17:23:03.4661835+06:00"
